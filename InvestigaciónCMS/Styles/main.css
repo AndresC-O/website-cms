@@ -1,6 +1,14 @@
+
+/*Código CSS para la página de [index.html]*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body
 {
-    background: url(../Resources/network.jpg);
+    background: url(../Resources/fondo-difuminado.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -21,6 +29,7 @@ h1
 
 .question-cms
 {
+    padding-top: 25px;
     font-family: 'Varela Round', sans-serif;
     font-size: 30px;
 }
@@ -37,6 +46,12 @@ h1
     font-family: 'Varela Round', sans-serif;
     text-align: justify;
     font-size: 20px;
+}
+
+.pantallawordpress
+{
+    position: relative;
+    margin-left: 160px;
 }
 
 .galeria
@@ -97,6 +112,7 @@ h1
 .overlay .texto-overlay
 {
     color: #fff;
+    text-decoration: none;
     font-weight: 300;
     font-size: 30px;
     position: absolute;
@@ -110,6 +126,14 @@ h1
 {
     height: 100%;
     cursor: pointer;
+}
+
+.ejemp-brev
+{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+    color: salmon;
 }
 
 .pie-de-pagina
