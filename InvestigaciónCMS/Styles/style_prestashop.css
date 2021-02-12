@@ -1,0 +1,13 @@
+body
+{
+    background: url(../Resources/fondo-difuminado.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: cornsilk;
+}
+
+.fondoh1
+{
+    background: cornflowerblue;
+}
