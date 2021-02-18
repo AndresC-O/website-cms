@@ -1,5 +1,6 @@
-
 /*Código CSS para la página de [index.html]*/
+
+/*Formateo del website*/
 * {
 	margin: 0;
 	padding: 0;
@@ -17,25 +18,137 @@ body
 
 .fondoh1
 {
-    background: cornflowerblue;
-}
 
-h1
-{
+    margin: 20px;
+    background: cornflowerblue;
+
     font-family: 'Architects Daughter', cursive;
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
+    border-radius: 27px;
+}
+
+.navegacion
+{
+    width: 1000px;
+    margin: 30px auto;
+    background: #fff;
+}
+
+.navegacion ul
+{
+    list-style: none;
+}
+
+.menu > li
+{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a
+{
+    display: block;
+    padding: 15px 50px;
+    color: #353535;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+}
+
+.menu li a:hover
+{
+    color: #005AA4;
+    transition: all .3s;
+}
+
+.submenu
+{
+    position: absolute;
+    background: cadetblue;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.0s;
+}
+
+.submenu li a
+{
+     display: block;
+     padding: 15px;
+     color: #fff;
+     font-family: 'Varela Round', sans-serif;
+     text-decoration: none;
+}
+
+.menu li:hover .submenu
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+.titulo_portada
+{
+    font-family: 'Varela Round', sans-serif;
+    text-align: left;
+    padding-top: 25px;
+    margin: 30px 0 15px 20px;
+}
+
+.logoUNAB
+{
+    display: block;
+    margin: 0 auto;
+    background: #f0f0f0;
+    border-radius: 25px;
+}
+
+.atrib_portada li
+{
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.integrantes
+{
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+}
+
+.p_introduccion
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Varela Round', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.objetivos li
+{
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 15px;
 }
 
 .question-cms
 {
-    padding-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 0px;
     font-family: 'Varela Round', sans-serif;
     font-size: 30px;
 }
 
 .parrafo-s1
 {
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: 'Varela Round', sans-serif;
     text-align: justify;
     font-size: 20px;
@@ -43,15 +156,20 @@ h1
 
 .parrafo-s2
 {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 25px;
     font-family: 'Varela Round', sans-serif;
     text-align: justify;
     font-size: 20px;
+    padding-bottom: 20px;
 }
 
 .pantallawordpress
 {
-    position: relative;
-    margin-left: 160px;
+    display: block;
+    margin: 0 auto;
+    padding: 0px 20px 0 20px;
 }
 
 .galeria
@@ -62,7 +180,7 @@ h1
 .galeria .galeria-h2
 {
     text-align: center;
-    margin: 25px 0 15px 0;
+    margin: 30px 0 30px 0;
 }
 
 .linea
@@ -132,14 +250,33 @@ h1
 {
     text-align: center;
     font-family: 'Varela Round', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     color: salmon;
+}
+
+.p_conclusion
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Varela Round', sans-serif;
+    text-align: justify;
+    font-size: 20px;
 }
 
 .pie-de-pagina
 {
+    margin-bottom: 20px;
+    margin-top: 15px;
     font-family: 'Play', sans-serif;
     text-align: center;
+}
+
+#btnarriba
+{
+    position: fixed;
+    bottom: 20px;
+    right: -100px;
+    transition: all 1s;
 }
 
 @media screen and (max-widht: 1000px)

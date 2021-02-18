@@ -15,16 +15,138 @@
 </head>
 
 <body>
+    <div class="fondoh1" id="inicio">
+        <h1>Sistemas Gestores de Contenido (CMS)</h1>
+    </div>
     <header>
-        <div class="fondoh1">
-            <h1>¡Bienvenido a nuestro sitio web sobre los CMS!</h1>
-        </div>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="#ancla_portada">Portada</a></li>
+                <li><a href="#ancla_introduccion">Introducción</a></li>
+                <li><a href="#ancla_objetivos">Objetivos</a></li>
+                <li><a href="#ancla_marcoteorico">Marco Teórico</a>
+                    <ul class="submenu">
+                        <li><a href="wordpress.html">Ir a WordPress</a></li>
+                        <li><a href="prestashop.html">Ir a PrestaShop</a></li>
+                        <li><a href="moodle.html">Ir a Moodle</a></li>
+                        <li><a href="joomla.html">Ir a Joomla!</a></li>
+                    </ul>
+                </li>
+                <li><a href="#ancla_conclusion">Conclusión</a></li>
+            </ul>
+        </nav>
     </header>
     <article>
+        <!--Portada-->
+        <section class="portada" id="ancla_portada">
+            <h2 class="titulo_portada">> Portada</h2>
+            <div class="linea"></div>
+            <img src="Resources/Logo horizontal png.png" alt="logo_unab" class="logoUNAB">
+            <br>
+            <ul class="atrib_portada">
+                <li><strong>Facultad: </strong>Ciencias Económicas</li>
+                <br>
+                <li><strong>Cátedra: </strong>Programación III</li>
+                <br>
+                <li><strong>Ciclo: </strong>01/2021</li>
+                <br>
+                <li><strong>Tema: </strong>Investigación CMS</li>
+                <br>
+                <li><strong>Catedrático: </strong>Ing. William Efrain Díaz Villacorta</li>
+                <br>
+                <li><strong>Integrantes del proyecto:</strong>
+                    <ol class="integrantes">
+                        <br>
+                        <li>Córdova Orellana, Andrés Eduardo</li>
+                        <li>Cruz Calles, Fatima Marlene</li>
+                        <li>Galdámez García, Joshua Alexander</li>
+                        <li>Mejía Miranda, Marcos Antonio</li>
+                        <li>Orellana Serrano, Enmanuel Enrique</li>
+                    </ol>
+                </li>
+                <br>
+                <li><strong>Fecha de Entrega: </strong>26 de febrero del 2021</li>
+            </ul>
+        </section>
+        <!--Introducción-->
+        <section class="introduccion" id="ancla_introduccion">
+            <h2 class="titulo_portada">> Introducción</h2>
+            <div class="linea"></div>
+            <p class="p_introduccion">
+                Como una pequeña introducción a lo que son los CMS acrónimo de "Content Managment Systems" mejores
+                conocidos
+                como Sistemas de Gestión de Contenidos pero, ¿qué significa en realidad eso?, básicamente son sistemas
+                que te ayudan
+                en la creación de páginas web, sitios web dinámicos con una excelente calidad y con un S.E.O bastante
+                atractivo,
+                pues de eso te contaremos y mostraremos en este sitio web, desde su información hasta su intalación en
+                un
+                servidor local (localhost) utilizando la herramienta de Xampp, un sistema de gestión de base de datos y
+                apache Tomcat server.
+            </p>
+        </section>
+        <!--Objetivos-->
+        <section class="objetivos" id="ancla_objetivos">
+            <h2 class="titulo_portada">> Objetivos</h2>
+            <div class="linea"></div>
+            <ul class="obj_Generales">
+                <li>
+                    <strong>
+                        <p>Objetivo General</p>
+                    </strong>
+                    <br>
+                    <p>
+                        Conocer la importancia de los CMS en la actualidad y su gran impacto en el desarrollo de
+                        páginas web y sitios web completamente dinámicos y siguiendo todas las normas del SEO
+                        (Posicionamiento en buscadores).
+                    </p>
+                    <br>
+                    <strong>
+                        <p>Objetivo especifico</p>
+                    </strong>
+                    <br>
+                    <ul>
+                        <li>
+                            Los CMS son completamente amigables con el usuario ya que son Responsive Design y son
+                            compatibles con todos los navegadores y pantallas de smartphones.
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <strong>
+                        <p>Objetivo General</p>
+                    </strong>
+                    <br>
+                    <p>
+                        Los CMS son gestores de contenido con licencia GPL (General Public Licence), o sea de código
+                        abierto </p>
+                    para todos aquellos desarrolladores que desean expandir el gestor y así poder configurarlo a tal
+                    manera
+                    que la empresa lo necesite, o para su propio uso.
+                    </p>
+                    <br>
+                    <strong>
+                        <p>Objetivo especifico</p>
+                    </strong>
+                    <br>
+                    <ul>
+                        <li>
+                            No es necesario ser desarrolador web o tener conocimientos en ese ámbito para poder
+                            crear una página/sitio web, ya que cuenta con <strong>CPanel</strong>.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <!--Marco Teórico-->
         <section>
+            <h2 class="titulo_portada" id="ancla_marcoteorico">> Marco Teórico</h2>
+            <div class="linea"></div>
             <strong>
                 <h2 class="question-cms">¿Qué son los CMS?</h2>
             </strong>
+            <br>
             <p class="parrafo-s1">
                 Un sistema gestor de contenidos, o CMS por sus siglas en inglés, es un software que se ejecuta en el
                 navegador y permite crear, administrar y modificar un sitio web y su contenido sin requerir
@@ -41,26 +163,26 @@
                 <div class="imagen">
                     <img src="Resources/wordpress.png" alt="wordpress">
                     <div class="overlay">
-                        <a href="https://wordpress.com/" target="_blank" class="texto-overlay">Ir a WordPress</a>
+                        <a href="wordpress.html" target="_blank" class="texto-overlay">Ir a WordPress</a>
                     </div>
                 </div>
                 <div class="imagen">
                     <img src="Resources/prestashop.jpg" alt="prestashop">
                     <div class="overlay">
-                        <a href="https://www.prestashop.com/es" target="_blank" class="texto-overlay">Ir a
+                        <a href="prestashop.html" target="_blank" class="texto-overlay">Ir a
                             PrestaShop</a>
                     </div>
                 </div>
                 <div class="imagen">
                     <img src="Resources/moodle.png" alt="moddle">
                     <div class="overlay">
-                        <a href="https://moodle.org/?lang=es" target="_blank" class="texto-overlay">Ir a Moddle</a>
+                        <a href="moodle.html" target="_blank" class="texto-overlay">Ir a Moddle</a>
                     </div>
                 </div>
                 <div class="imagen">
                     <img src="Resources/joomla.jpg" alt="joomla">
                     <div class="overlay">
-                        <a href="https://www.joomla.org/" target="_blank" class="texto-overlay">Ir a Joomla!</a>
+                        <a href="joomla.html" target="_blank" class="texto-overlay">Ir a Joomla!</a>
                     </div>
                 </div>
             </div>
@@ -83,14 +205,39 @@
                 contenido para crear publicaciones, páginas, tiendas online y publicar todo tu contenido en internet.
             </p>
         </section>
-        <h2 class="ejemp-brev">EJEMPLO BREVE DE UNA INTERFAZ DE CMS</h2>
+        <h2 class="ejemp-brev"> > EJEMPLO BREVE DE UNA INTERFAZ DE CMS (Wordpress)</h2>
         <div class="linea"></div>
-        <section class="pantallawordpress">
-            <img src="Resources/pantallawordpress.webp" alt="pantallawordpress">
+        <section>
+            <img src="Resources/pantallawordpress.webp" alt="pantallawordpress" class="pantallawordpress">
+        </section>
+        <!--Conclusión-->
+        <section class="conclusion" id="ancla_conclusion">
+            <h2 class="titulo_portada">> Conclusión</h2>
+            <div class="linea"></div>
+            <p class="p_conclusion">
+                Como has podido observar, los CMS son de gran importancia en la actualidad por su uso muy seguro
+                y agradable con el usuario. Existen diversas herramientas, plugins etc, con las cuales puedes aumentar
+                el comportamiento, la estabilidad y la velocidad de tú sitio web. Tanto como si eres desarrollador o no
+                son herramientas que no necesitan de tantos conocimientos en el tema, solo necesitarias supervisión a la
+                hora de lanzarlo hacia los usuarios finales con los cuales interactuarias.
+                <br>
+                <br>
+                Tal como hemos podido observar en <strong>WordPress, </strong><strong>PrestaShop,
+                </strong><strong>Moodle,
+                </strong><strong>Joomla!, </strong>su instalación no es nada del otro mundo, solo necesitan un poco de 
+                atención en el proceso que se está siguiendo para que no hayan problemas durante la ejecución del mismo
+                CMS, por tanto un CMS viene a facilitar mucho la parte de la codificación más que nada pero, ¡Tú eres quien tiene la última palabra! 😎
+    
+            </p>
         </section>
     </article>
+    <!--Flecha de desplazamiento hacia arriba-->
+    <a href="#"><img src="Resources/up-arrow2.png" alt="img_arriba" id="btnarriba"></a>
+
+    <!--Enlace hacia el archivo de JavaScript-->
+    <script src="inicio.js"></script>
     <footer class="pie-de-pagina">
-        <p>Copyleft 2021 | Programación 3 [G1] | CICLO 01/2021</p>
+        <p>2021 Copyright ©. Sito web desarrollado en la materia de Programación 3 [G1] | CICLO 01/2021</p>
     </footer>
 </body>
 
