@@ -1,0 +1,80 @@
+body
+{
+    background: url(../Resources/fondo-difuminado.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: cornsilk;
+}
+.Fondo
+{
+        background: cornflowerblue;
+}
+h1
+{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.parrafo1
+{
+    font-family: 'Varela Round', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}.parrafo2
+{
+    font-family: 'Varela Round', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}.Ventajas
+{
+    font-family: 'Varela Round', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}.Rolesprincipales
+{
+    font-family: 'Varela Round', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.pregunta1
+{
+    padding-top: 25px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+}.pregunta2
+{
+    padding-top: 25px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+}.pregunta3
+{
+    padding-top: 25px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+}.pregunta4
+{
+    padding-top: 25px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+
+
+
+
+.linea
+{
+    border-top: 5px solid #0077C0;
+    margin-bottom: 40px;
+}.instalacion
+{
+    text-align: center;
+    margin: 25px 0 15px 0;
+}
