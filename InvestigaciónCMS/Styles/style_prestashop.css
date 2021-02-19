@@ -44,12 +44,7 @@ h1
     text-align: center;
     margin: 25px 0 15px 0;
 }
-.parrafo2
-{
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 20px;
-}
+
 
 .parrafo3
 {
@@ -87,6 +82,20 @@ font-size: 20px;
 }
 
 .pregunta4
+{
+    padding-top: 25px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+}
+
+.ventajas
+{
+    font-family: 'Varela Round', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.pregunta5
 {
     padding-top: 25px;
     font-family: 'Varela Round', sans-serif;
