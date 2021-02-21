@@ -8,7 +8,12 @@ body
 }
 .Fondo
 {
+        margin: 20px;
         background: cornflowerblue;
+        font-family: 'Architects Daughter', cursive;
+        text-align: center;
+        font-size: 25px;
+        border-radius: 27px;
 }
 h1
 {
@@ -23,21 +28,29 @@ h1
 }
 .parrafo1
 {
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: 'Varela Round', sans-serif;
     text-align: justify;
     font-size: 20px;
 }.parrafo2
 {
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: 'Varela Round', sans-serif;
     text-align: justify;
     font-size: 20px;
 }.Ventajas
 {
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: 'Varela Round', sans-serif;
     text-align: justify;
     font-size: 20px;
 }.Rolesprincipales
 {
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: 'Varela Round', sans-serif;
     text-align: justify;
     font-size: 20px;
@@ -45,26 +58,34 @@ h1
 
 .pregunta1
 {
-    padding-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 0px;
     font-family: 'Varela Round', sans-serif;
     font-size: 30px;
+    text-decoration: none;
 }.pregunta2
 {
-    padding-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 0px;
     font-family: 'Varela Round', sans-serif;
     font-size: 30px;
 }.pregunta3
 {
-    padding-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 0px;
     font-family: 'Varela Round', sans-serif;
     font-size: 30px;
 }.pregunta4
 {
-    padding-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: 'Varela Round', sans-serif;
-    font-size: 25px;
+    text-align: justify;
+    font-size: 30px;
 }
-
 
 
 
