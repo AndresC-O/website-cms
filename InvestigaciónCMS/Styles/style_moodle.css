@@ -1,116 +1,126 @@
-body
-{
-    background: url(../Resources/fondo-difuminado.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: cornsilk;
-}
-.Fondo
-{
-        margin: 20px;
-        background: cornflowerblue;
-        font-family: 'Architects Daughter', cursive;
-        text-align: center;
-        font-size: 25px;
-        border-radius: 27px;
-}
-h1
-{
-    font-family: 'Architects Daughter', cursive;
-    text-align: center;
-    font-size: 50px;
-}
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-.parrafo1
-{
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 20px;
-}.parrafo2
-{
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 20px;
-}.Ventajas
-{
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 20px;
-}.Rolesprincipales
-{
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.pregunta1
-{
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 0px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 30px;
-    text-decoration: none;
-}.pregunta2
-{
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 0px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 30px;
-}.pregunta3
-{
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 0px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 30px;
-}.pregunta4
-{
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 30px;
-}.h2o
-{
-    text-align: center;
-    margin: 25px 0 15px 0;
-}.pantallaMoodle
-{
-    display: block;
-    margin: 0 auto;
-    padding: 0px 20px 0 20px;
-    width: 65%;    
-}.linea
-{
-    border-top: 5px solid #0077C0;
-    margin-bottom: 40px;
-}.instalacion
-{
-    margin-left: 30px;
-    margin-right: 30px;
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 20px;
+body {
+  background: url(../Resources/fondo-bote.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: cornsilk;
 }
-.pie-de-pagina
-{
-    margin-bottom: 20px;
-    margin-top: 15px;
-    font-family: 'Play', sans-serif;
-    text-align: center;
+.fondoh1 {
+  margin: 20px;
+  background: #59abb3;
+
+  font-family: "Prosto One", cursive;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 27px;
+}
+/*.Fondo {
+  margin: 20px;
+  background: cornflowerblue;
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 27px;
+}
+h1 {
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  font-size: 50px;
+}*/
+
+.parrafo1 {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+.parrafo2 {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+.Ventajas {
+  margin-left: 90px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+.Rolesprincipales {
+  margin-left: 90px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.pregunta1 {
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 0px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+.pregunta2 {
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 0px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+}
+.pregunta3 {
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 0px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+}
+.pregunta4 {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 30px;
+}
+.h2o {
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0 15px 0;
+  padding-bottom: 15px;
+}
+.pantallaMoodle {
+  display: block;
+  margin: 0 auto;
+  padding: 0px 20px 0 20px;
+  width: 85%;
+}
+.linea {
+  border-top: 7px solid #fff;
+  margin-bottom: 40px;
+}
+.instalacion {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+.pie-de-pagina {
+  margin-bottom: 20px;
+  margin-top: 15px;
+  font-family: "Play", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
 }
