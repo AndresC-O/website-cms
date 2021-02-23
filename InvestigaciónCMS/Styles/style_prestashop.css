@@ -115,3 +115,32 @@ font-size: 20px;
     text-align: justify;
     font-size: 20px;
 }
+.h2o
+{
+    text-align: center;
+    margin: 25px 0 15px 0;
+}.pantallaPrestaShop
+{
+    display: block;
+    margin: 0 auto;
+    padding: 0px 20px 0 20px;
+    width: 65%;    
+}.linea
+{
+    border-top: 5px solid #0077C0;
+    margin-bottom: 40px;
+}.instalacion
+{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Varela Round', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+.pie-de-pagina
+{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
