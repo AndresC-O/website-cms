@@ -82,3 +82,17 @@ a:link
     text-align: center;
     color: aqua;
 }
+.pie-de-pagina
+{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+.pantallaword
+{
+    display: block;
+    margin: 0 auto;
+    padding: 0px 20px 0 20px;
+    width: 65%;    
+}
