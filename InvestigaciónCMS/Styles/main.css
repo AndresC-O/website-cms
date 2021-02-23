@@ -2,304 +2,277 @@
 
 /*Formateo del website*/
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body
-{
-    background: url(../Resources/fondo-bote.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: cornsilk;
+body {
+  background: url(../Resources/fondo-bote.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: cornsilk;
 }
 
-.fondoh1
-{
-    margin: 20px;
-    background: #59ABB3;
+.fondoh1 {
+  margin: 20px;
+  background: #59abb3;
 
-    font-family: 'Prosto One', cursive;
-    text-align: center;
-    font-size: 25px;
-    border-radius: 27px;
+  font-family: "Prosto One", cursive;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 27px;
 }
 
-.titulo-menu
-{
-    font-family: 'Varela Round', sans-serif;
-    text-align: center;
+.titulo-menu {
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
 }
 
-.navegacion
-{
-    width: 1000px;
-    margin: 10px auto;
-    background: #fff;
+.navegacion {
+  width: 1000px;
+  margin: 10px auto;
+  background: #fff;
 }
 
-.navegacion ul
-{
-    list-style: none;
+.navegacion ul {
+  list-style: none;
 }
 
-.menu > li
-{
-    position: relative;
-    display: inline-block;
+.menu > li {
+  position: relative;
+  display: inline-block;
 }
 
-.menu > li > a
-{
-    display: block;
-    padding: 15px 50px;
-    color: #353535;
-    font-family: 'Varela Round', sans-serif;
-    text-decoration: none;
+.menu > li > a {
+  display: block;
+  padding: 15px 50px;
+  color: #353535;
+  font-family: "Varela Round", sans-serif;
+  text-decoration: none;
 }
 
-.menu li a:hover
-{
-    color: #005AA4;
-    transition: all .3s;
+.menu li a:hover {
+  color: #005aa4;
+  transition: all 0.3s;
 }
 
-.submenu
-{
-    position: absolute;
-    background: cadetblue;
-    width: 100%;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 1.0s;
+.submenu {
+  position: absolute;
+  background: cadetblue;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
-.submenu li a
-{
-     display: block;
-     padding: 15px;
-     color: #fff;
-     font-family: 'Varela Round', sans-serif;
-     text-decoration: none;
+.submenu li a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: "Varela Round", sans-serif;
+  text-decoration: none;
 }
 
-.menu li:hover .submenu
-{
-    visibility: visible;
-    opacity: 1;
+.menu li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
 }
 
-.titulo_portada
-{
-    font-family: 'Varela Round', sans-serif;
-    font-size: 35px;
-    text-align: left;
-    padding-top: 25px;
-    margin: 30px 0 15px 20px;
+.img-cms {
+  background: #59abb3;
+  display: block;
+  margin: 50px auto;
+  padding: 10px;
+  width: 80%;
+  border-radius: 15px;
 }
 
-.logoUNAB
-{
-    display: block;
-    margin: 0 auto;
-    background: #f0f0f0;
-    border-radius: 25px;
+.titulo_portada {
+  font-family: "Varela Round", sans-serif;
+  font-size: 35px;
+  text-align: left;
+  padding-top: 25px;
+  margin: 30px 0 15px 20px;
 }
 
-.atrib_portada li
-{
-    text-decoration: none;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 20px;
-    margin-left: 50px;
+.logoUNAB {
+  display: block;
+  margin: 0 auto;
+  background: #f0f0f0;
+  border-radius: 25px;
 }
 
-.integrantes
-{
-    text-decoration: none;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 20px;
+.atrib_portada li {
+  text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+  font-size: 20px;
+  margin-left: 50px;
 }
 
-.p_introduccion
-{
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 20px;
+.integrantes {
+  text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+  font-size: 20px;
 }
 
-.objetivos li
-{
-    text-decoration: none;
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 20px;
-    margin-left: 50px;
-    margin-right: 15px;
+.p_introduccion {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
 }
 
-.question-cms
-{
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 0px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 30px;
+.objetivos li {
+  text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 15px;
 }
 
-.parrafo-s1
-{
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 20px;
+.question-cms {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 0px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
 }
 
-.parrafo-s2
-{
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 25px;
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 20px;
-    padding-bottom: 20px;
+.parrafo-s1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
 }
 
-.pantallawordpress
-{
-    display: block;
-    margin: 0 auto;
-    padding: 0px 20px 0 20px;
+.parrafo-s2 {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 25px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 
-.galeria
-{
-    font-family: 'Varela Round', sans-serif;
+.pantallawordpress {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  padding: 0px 20px 0 20px;
 }
 
-.galeria .galeria-h2
-{
-    text-align: center;
-    margin: 30px 0 30px 0;
+.galeria {
+  font-family: "Varela Round", sans-serif;
 }
 
-.linea
-{
-    border-top: 5px solid #fff;
-    margin-bottom: 40px;
+.galeria .galeria-h2 {
+  text-align: center;
+  margin: 30px 0 30px 0;
 }
 
-.contenedor-imagenes
-{
-    display: flex;
-    width: 85%;
-    margin: auto;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    border-radius: 30px;
+.linea {
+  border-top: 5px solid #fff;
+  margin-bottom: 40px;
 }
 
-.contenedor-imagenes .imagen
-{
-    width: 45%;
-    position: relative;
-    height: 300px;
-    margin-bottom: 10px;
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+.contenedor-imagenes {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 30px;
 }
 
-.imagen img
-{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.contenedor-imagenes .imagen {
+  width: 45%;
+  position: relative;
+  height: 300px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
 }
 
-.overlay
-{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background:rgba(0, 118, 192, 0.562);
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    transition: 0.5s ease;
+.imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.overlay .texto-overlay
-{
-    color: #fff;
-    text-decoration: none;
-    font-weight: 300;
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 118, 192, 0.562);
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s ease;
 }
 
-.imagen:hover .overlay
-{
-    height: 100%;
-    cursor: pointer;
+.overlay .texto-overlay {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
 }
 
-.ejemp-brev
-{
-    text-align: center;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 35px;
-    color: salmon;
+.imagen:hover .overlay {
+  height: 100%;
+  cursor: pointer;
 }
 
-.p_conclusion
-{
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 20px;
+.ejemp-brev {
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  font-size: 35px;
+  color: salmon;
 }
 
-.pie-de-pagina
-{
-    margin-bottom: 20px;
-    margin-top: 15px;
-    font-family: 'Play', sans-serif;
-    text-align: center;
+.p_conclusion {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
 }
 
-#btnarriba
-{
-    position: fixed;
-    bottom: 20px;
-    right: -100px;
-    transition: all 1s;
+.pie-de-pagina {
+  margin-bottom: 20px;
+  margin-top: 15px;
+  font-family: "Play", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
 }
 
-@media screen and (max-widht: 1000px)
-{
-    .contenedor-imagenes
-    {
-        width: 95%;
-    }
+#btnarriba {
+  position: fixed;
+  bottom: 20px;
+  right: -100px;
+  transition: all 1s;
 }
-@media screen and (max-widht: 700px)
-{
-    .contenedor-imagenes
-    {
-        width: 90%;
-    }
-    .contenedor-imagenes .imagen
-    {
-        width: 48%;
-    }
+
+@media screen and (max-widht: 1000px) {
+  .contenedor-imagenes {
+    width: 95%;
+  }
+}
+@media screen and (max-widht: 700px) {
+  .contenedor-imagenes {
+    width: 90%;
+  }
+  .contenedor-imagenes .imagen {
+    width: 48%;
+  }
 }
