@@ -105,10 +105,11 @@ body {
 }
 
 .atrib_portada li {
+  margin-left: 60px;
+  margin-right: 60px;
   text-decoration: none;
   font-family: "Varela Round", sans-serif;
   font-size: 20px;
-  margin-left: 50px;
 }
 
 .integrantes {
@@ -118,8 +119,8 @@ body {
 }
 
 .p_introduccion {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
   font-family: "Varela Round", sans-serif;
   text-align: justify;
   font-size: 20px;
@@ -130,29 +131,29 @@ body {
   font-family: "Varela Round", sans-serif;
   text-align: justify;
   font-size: 20px;
-  margin-left: 50px;
-  margin-right: 15px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .question-cms {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
   padding-top: 0px;
   font-family: "Varela Round", sans-serif;
   font-size: 30px;
 }
 
 .parrafo-s1 {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
   font-family: "Varela Round", sans-serif;
   text-align: justify;
   font-size: 20px;
 }
 
 .parrafo-s2 {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
   padding-top: 25px;
   font-family: "Varela Round", sans-serif;
   text-align: justify;
@@ -236,12 +237,12 @@ body {
   text-align: center;
   font-family: "Varela Round", sans-serif;
   font-size: 35px;
-  color: salmon;
+  color: #fff;
 }
 
 .p_conclusion {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
   font-family: "Varela Round", sans-serif;
   text-align: justify;
   font-size: 20px;
@@ -253,7 +254,7 @@ body {
   font-family: "Play", sans-serif;
   font-size: 20px;
   text-align: center;
-  color: #000000;
+  color: #fff;
 }
 
 #btnarriba {
@@ -263,16 +264,28 @@ body {
   transition: all 1s;
 }
 
-@media screen and (max-widht: 1000px) {
+@media screen and (max-width:1000px) {
   .contenedor-imagenes {
     width: 95%;
   }
 }
-@media screen and (max-widht: 700px) {
+
+@media screen and (max-width:700px) {
   .contenedor-imagenes {
     width: 90%;
   }
+
   .contenedor-imagenes .imagen {
     width: 48%;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .contenedor-imagenes {
+    width: 100%;
+  }
+
+  .contenedor-imagenes .imagen {
+    width: 80%;
   }
 }
