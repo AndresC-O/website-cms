@@ -1,86 +1,102 @@
-body
-{
-    background: url(../Resources/fondo-difuminado.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: cornsilk;
-}
-
-.fondoh1
-{
-    background: cornflowerblue;
-}
-
-h1
-{
-    font-family: 'Architects Daughter', cursive;
-    text-align: center;
-    font-size: 50px;
-}
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.parra1
-{
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 20px;
+body {
+  background: url(../Resources/fondo-bote.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: cornsilk;
 }
-.preguntaw
-{
-    padding-top: 25px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 30px;
+.fondoh1 {
+  margin: 20px;
+  background: #59abb3;
+
+  font-family: "Prosto One", cursive;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 27px;
 }
-.linea
-{
-    border-top: 5px solid #0077C0;
-    margin-bottom: 40px;
+.parra1 {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
 }
-.instalacion .h2o
-{
-    text-align: center;
-    margin: 25px 0 15px 0;
+.preguntaw {
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 25px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
 }
-.parrafo2
-{
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 20px;
+.linea {
+  border-top: 5px solid #fff;
+  margin-bottom: 40px;
 }
-.Tit
-{
-    padding-top: 25px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 30px;
+.instalacion {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  margin: 25px 0 15px 0;
 }
-.parrafo3
-{
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 20px;
+.h2o {
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0 15px 0;
+  padding-bottom: 15px;
 }
-.listas
-{
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 20px;
+.parrafo2 {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
 }
-.pantallaJoomla
-{
-    display: block;
-    margin: 0 auto;
-    padding: 0px 20px 0 20px;
-    width: 65%;    
+.Tit {
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 25px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
 }
-.instalacion
-{
-    margin-left: 30px;
-    margin-right: 30px;
-    font-family: 'Varela Round', sans-serif;
-    text-align: justify;
-    font-size: 20px;
+.parrafo3 {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+.listas {
+  margin-left: 90px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+.pantallaJoomla {
+  display: block;
+  margin: 0 auto;
+  padding: 0px 20px 0 20px;
+  width: 85%;
+}
+.instalacion {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+.pie-de-pagina {
+  margin-bottom: 20px;
+  margin-top: 15px;
+  font-family: "Play", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
 }

@@ -1,14 +1,17 @@
-body
-{
-    background: url(../Resources/fondo-bote.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: cornsilk;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+  background: url(../Resources/fondo-bote.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: cornsilk;
 }
-.Fondo
-{
-    margin: 20px;
+.fondoh1 {
+  margin: 20px;
   background: #59abb3;
 
   font-family: "Prosto One", cursive;
@@ -16,163 +19,133 @@ body
   font-size: 25px;
   border-radius: 27px;
 }
-h1
-{
-    font-family: 'Architects Daughter', cursive;
-    text-align: center;
-    font-size: 50px;
+.parrafo1 {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
 }
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+.pregunta {
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 0px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+  text-decoration: none;
 }
-.parrafo1
-{
-    margin-left: 60px;
-    margin-right: 60px;
-    font-family: "Varela Round", sans-serif;
-    text-align: justify;
-    font-size: 20px;
+.linea {
+  border-top: 7px solid #fff;
+  margin-bottom: 40px;
 }
-.pregunta
-{
-    margin-left: 60px;
-    margin-right: 60px;
-    padding-top: 0px;
-    font-family: "Varela Round", sans-serif;
-    font-size: 30px;
-    text-decoration: none;
+.instalacion .h2o {
+  text-align: center;
+  margin: 25px 0 15px 0;
 }
-
-.linea
-{
-    border-top: 5px solid #0077C0;
-    margin-bottom: 40px;
-}
-.instalacion .h2o
-{
-    text-align: center;
-    margin: 25px 0 15px 0;
+.parrafo3 {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
 }
 
-
-.parrafo3
-{
-    margin-left: 60px;
-    margin-right: 60px;
-    font-family: "Varela Round", sans-serif;
-    text-align: justify;
-    font-size: 20px;
+.listahistoria {
+  margin-left: 90px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
 }
 
-.listahistoria
-{
-    margin-left: 90px;
-    margin-right: 60px;
-    font-family: "Varela Round", sans-serif;
-    text-align: justify;
-    font-size: 20px;
+.listacaracteristicas {
+  margin-left: 90px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
 }
 
-.listacaracteristicas
-{
-    margin-left: 90px;
-    margin-right: 60px;
-    font-family: "Varela Round", sans-serif;
-    text-align: justify;
-    font-size: 20px;
+.pregunta2 {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 30px;
 }
 
-.pregunta2
-{
-    margin-left: 60px;
-    margin-right: 60px;
-    font-family: "Varela Round", sans-serif;
-    text-align: justify;
-    font-size: 30px;
+.pregunta3 {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 30px;
 }
 
-.pregunta3
-{
-    margin-left: 60px;
-    margin-right: 60px;
-    font-family: "Varela Round", sans-serif;
-    text-align: justify;
-    font-size: 30px;
+.pregunta4 {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 30px;
 }
 
-.pregunta4
-{
-    margin-left: 60px;
-    margin-right: 60px;
-    font-family: "Varela Round", sans-serif;
-    text-align: justify;
-    font-size: 30px;
+.ventajas {
+  margin-left: 90px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
 }
 
-.ventajas
-{
-    margin-left: 90px;
-    margin-right: 60px;
-    font-family: "Varela Round", sans-serif;
-    text-align: justify;
-    font-size: 20px;
+.pregunta5 {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 30px;
 }
 
-.pregunta5
-{
-    margin-left: 60px;
-    margin-right: 60px;
-    font-family: "Varela Round", sans-serif;
-    text-align: justify;
-    font-size: 30px;
+.listas {
+  margin-left: 90px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
 }
 
-.listas
-{
-    margin-left: 90px;
-    margin-right: 60px;
-    font-family: "Varela Round", sans-serif;
-    text-align: justify;
-    font-size: 20px;
+.listasrequisitos {
+  margin-left: 90px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
 }
-
-.listasrequisitos
-{
-    margin-left: 90px;
-    margin-right: 60px;
-    font-family: "Varela Round", sans-serif;
-    text-align: justify;
-    font-size: 20px;
-}.h2o {
-    font-family: "Varela Round", sans-serif;
-    font-size: 30px;
-    text-align: center;
-    margin: 15px 0 15px 0;
-    padding-bottom: 15px;
-}.pantallaPrestaShop
-{
-    display: block;
-    margin: 0 auto;
-    padding: 0px 20px 0 20px;
-    width: 85%;    
-}.linea
-{
-    border-top: 5px solid #0077C0;
-    margin-bottom: 40px;
-}.instalacion
-{
-    margin-left: 60px;
-    margin-right: 60px;
-    font-family: "Varela Round", sans-serif;
-    text-align: justify;
-    font-size: 20px;
-}.pie-de-pagina {
-    margin-bottom: 20px;
-    margin-top: 15px;
-    font-family: "Play", sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: #000000;
-  }
+.h2o {
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0 15px 0;
+  padding-bottom: 15px;
+}
+.pantallaPrestaShop {
+  display: block;
+  margin: 0 auto;
+  padding: 0px 20px 0 20px;
+  width: 85%;
+}
+.instalacion {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+.pie-de-pagina {
+  margin-bottom: 20px;
+  margin-top: 15px;
+  font-family: "Play", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
