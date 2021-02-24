@@ -1,8 +1,8 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background: url(../Resources/Fondo.jpg);
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body {
 }
 .fondoh1 {
   margin: 20px;
-  background: #59abb3;
+  background: #7993c5;
 
   font-family: "Prosto One", cursive;
   text-align: center;
