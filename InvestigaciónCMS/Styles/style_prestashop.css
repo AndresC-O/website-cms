@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
 body {
-  background: url(../Resources/fondo-bote.png);
+  background: url(../Resources/Fondo.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
