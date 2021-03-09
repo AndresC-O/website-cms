@@ -10,6 +10,14 @@ body {
   background-size: cover;
   color: cornsilk;
 }
+body::-webkit-scrollbar{
+  width: 15px;
+  background: #365DA8;
+}
+body::-webkit-scrollbar-thumb{
+  background: #757DBB;
+  border-radius: 7px;
+}
 .fondoh1 {
   margin: 20px;
   background: #7993c5;
