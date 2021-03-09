@@ -11,5 +11,16 @@ function irArriba(pxPantalla) {
     }
   });
 }
-
 irArriba(150);
+
+//Funcion que abre el acordeon en Wordpress.
+function openAcordeon(){
+  const acordion = document.getElementsByClassName('contentBx');
+  for(i = 0; i< acordion.length; i++){
+    acordion[i].addEventListener('click', function(){
+      this.classList.toggle('active')
+    })
+  }
+}
+
+openAcordeon();

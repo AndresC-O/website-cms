@@ -27,15 +27,52 @@ body::-webkit-scrollbar-thumb{
   font-size: 25px;
   border-radius: 27px;
 }
-/*
-.FondoW {
-  background: cornflowerblue;
+/*Creación de Acordeon de Pasos*/
+.padreAcordeon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 15px;
 }
-h1 {
-  font-family: "Architects Daughter", cursive;
-  text-align: center;
-  font-size: 50px;
-}*/
+.acordion{
+  max-width: 1000px;
+}
+.acordion .contentBx{
+  position: relative;
+  margin: 10px 20px;
+}
+.acordion .contentBx .label{
+  font-family: "Varela Round", sans-serif;
+  font-size: 25px;
+  position: relative;
+  padding: 15px;
+  background: #7993C5;
+  cursor: pointer;
+}
+.acordion .contentBx .label::before{
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  font-size: 35px;
+}
+.acordion .contentBx.active .label::before{
+  content: '-';
+  font-size: 35px;
+}
+.acordion .contentBx .content{
+  position: relative;
+  background: #A5B7D8;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+.acordion .contentBx.active .content{
+  height: 600px;
+}
+/**Cierre de Acrodeon**/
 .parra1 {
   margin-left: 60px;
   margin-right: 60px;
@@ -72,6 +109,7 @@ h1 {
   font-size: 30px;
 }
 .cara {
+  padding-top: 15px;
   margin-left: 60px;
   margin-right: 60px;
   font-family: "Varela Round", sans-serif;
@@ -79,6 +117,7 @@ h1 {
   font-size: 20px;
 }
 .cara2 {
+  padding-top: 15px;
   margin-left: 60px;
   margin-right: 60px;
   font-family: "Varela Round", sans-serif;
